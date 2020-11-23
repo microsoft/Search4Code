@@ -1,33 +1,52 @@
-# Project
+# Search4Code: Web queries dataset for code search
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+Search4Code is a dataset built using weak supervision on data extracted from anonymized Microsoft's Bing search engine logs to promote further research in the area of Natural Language based Code Search. We briefly describe the data below, for more details, refer to [our paper](LINK TO ARXIV) (under review).
 
-As the maintainer of this project, please make a few updates:
+* [Dataset Information](#dataset-information)
+* [Dataset Schema](#dataset-schema)
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
 
-## Contributing
+## Dataset Information
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+Search4Code is a large-scale dataset focused on the area of natural language to code search. We provide a dataset composed of real-world user queries and the corresponding click urls. Each query also has a label, predicted using the weak supervision model described in the paper, denoting whether the query has a code search intent or not. Since the dataset contains both code-search and non code-search queries, it could also be used to analyze other user intents, as shown in our [prior work](https://arxiv.org/abs/1912.09519).
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+Currently the Search4Code dataset contains 6596 Java queries. Please note that we will be soon adding a dataset for C# queries as well.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+What are some of the advantages of Search4Code dataset:
+- Real queries: All queries are sampled from anonymized Bing queries which we believe is a realistic representation of how individuals would search for code.
+- Click URLs: All queries have have a list of the the most frequently clicked urls from the search results. Since queries are grouped, the most frequently clicked url presents a good "solution" to the search query that most users selected.
+- Popularity score: Each query is assigned a popularity rank calculated based on it's frequency. 
+- Large scale: Currently the dataset contains thousands of queries with plans to further increase it as more data is run through the pipeline.
 
-## Trademarks
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+## Dataset Schema
+
+Each data file has the following fields:
+
+Field | Description
+------------ | -------------
+Id | Unique GUID to reference a query.
+QueryString | Raw search query.
+TopClickedUrls | The top 3 most frequently clicked on result urls.
+PopularityRank | A popularity score based on the frequency of the query in the raw data. Most popular query is ranked 1.
+PredictedLabel | Boolean label where 'True' denotes the query has a code search intent.
+
+
+## Terms of Use:  
+
+Please see the LICENSE file for more details. If you choose to use the data, please cite:
+
+```
+@inproceedings{rao-2020-codeintent,
+    title = "Code Search Intent Classification Using Weak Supervision",
+    author = "Nikitha Rao, Chetan Bansal and Joe Guan",
+    booktitle = "arXiv",
+    year = "2020",
+    address = "Online",
+    url = "TODO",
+}
+```
+
+## Contact:
+
+Please contact the authors of the paper if you have any questions or feedback.
