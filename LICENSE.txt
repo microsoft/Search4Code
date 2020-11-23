@@ -11,7 +11,7 @@ c) to publish (or present papers or articles) on your results from using such Da
 2) SCOPE OF LICENSE. The Dataset is licensed, not sold. Microsoft reserves all other rights. Unless applicable law gives you more rights despite this limitation, you will not (and have no right to):
 a) distribute the Dataset;
 b) alter any copyright, trademark or patent notice in the Dataset;
-c) use Microsoft’s trademarks in a way that suggests your derivative works or modifications come from or are endorsed by Microsoft; or 
+c) use Microsoft's trademarks in a way that suggests your derivative works or modifications come from or are endorsed by Microsoft; or 
 d) include the Dataset in malicious, deceptive or unlawful programs.
 
 3) LICENSE TO MICROSOFT.  Notwithstanding any limitations in Section 1, you may distribute your modifications back to Microsoft, and if you do provide Microsoft with modifications of the Dataset, you hereby grant Microsoft, without any restrictions or limitations, a non-exclusive, perpetual, irrevocable, royalty-free, assignable and sub-licensable license, to reproduce, publicly perform or display, install, use, modify, post, distribute, make and have made, sell and transfer such modifications and derivatives for any purpose.
@@ -22,7 +22,7 @@ d) include the Dataset in malicious, deceptive or unlawful programs.
 
 6) SUPPORT SERVICES. Microsoft is not obligated under this agreement to provide any support services for the Dataset. Any support provided is "as is", "with all faults", and without warranty of any kind.
 
-7) BINDING ARBITRATION AND CLASS ACTION WAIVER. This Section applies if you live in (or, if a business, your principal place of business is in) the United States.  If you and Microsoft have a dispute, you and Microsoft agree to try for 60 days to resolve it informally. If you and Microsoft can’t, you and Microsoft agree to binding individual arbitration before the American Arbitration Association under the Federal Arbitration Act ("FAA"), and not to sue in court in front of a judge or jury. Instead, a neutral arbitrator will decide. Class action lawsuits, class-wide arbitrations, private attorney-general actions, and any other proceeding where someone acts in a representative capacity are not allowed; nor is combining individual proceedings without the consent of all parties. The complete Arbitration Agreement contains more terms and is at aka.ms/arb-agreement-1. You and Microsoft agree to these terms.
+7) BINDING ARBITRATION AND CLASS ACTION WAIVER. This Section applies if you live in (or, if a business, your principal place of business is in) the United States.  If you and Microsoft have a dispute, you and Microsoft agree to try for 60 days to resolve it informally. If you and Microsoft can't, you and Microsoft agree to binding individual arbitration before the American Arbitration Association under the Federal Arbitration Act ("FAA"), and not to sue in court in front of a judge or jury. Instead, a neutral arbitrator will decide. Class action lawsuits, class-wide arbitrations, private attorney-general actions, and any other proceeding where someone acts in a representative capacity are not allowed; nor is combining individual proceedings without the consent of all parties. The complete Arbitration Agreement contains more terms and is at aka.ms/arb-agreement-1. You and Microsoft agree to these terms.
 
 8) ENTIRE AGREEMENT. This agreement, and any other terms Microsoft may provide for supplements, updates, or third-party applications, is the entire agreement for the Dataset.
 

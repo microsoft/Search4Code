@@ -8,7 +8,7 @@ Search4Code is a dataset built using weak supervision on data extracted from ano
 
 ## Dataset Information
 
-Search4Code is a large-scale dataset focused on the area of natural language to code search. We provide a dataset composed of real-world user queries and the corresponding click urls. Each query also has a label, predicted using the weak supervision model described in the paper, denoting whether the query has a code search intent or not. Since the dataset contains both code-search and non code-search queries, it could also be used to analyze other user intents, as shown in our [prior work](https://arxiv.org/abs/1912.09519).
+Search4Code is a large-scale dataset focused on the area of natural language to code search. We provide a dataset composed of real-world user queries and the corresponding click urls. Each query also has a label, predicted using the weak supervision model described in the paper, denoting whether the query has a code search intent or not. 
 
 Currently the Search4Code dataset contains 6596 Java queries. Please note that we will be soon adding a dataset for C# queries as well.
 
@@ -17,6 +17,8 @@ What are some of the advantages of Search4Code dataset:
 - Click URLs: All queries have have a list of the the most frequently clicked urls from the search results. Since queries are grouped, the most frequently clicked url presents a good "solution" to the search query that most users selected.
 - Popularity score: Each query is assigned a popularity rank calculated based on it's frequency. 
 - Large scale: Currently the dataset contains thousands of queries with plans to further increase it as more data is run through the pipeline.
+
+Since the dataset contains both code-search and non code-search queries, it could also be used to analyze other user intents, as described in our [prior work](https://arxiv.org/abs/1912.09519).
 
 
 ## Dataset Schema
