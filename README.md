@@ -52,4 +52,4 @@ Please see the LICENSE file for more details. If you choose to use the data, ple
 
 ## Contact:
 
-Please contact the authors of the [paper](https://arxiv.org) if you have any questions or feedback.
+Please contact the authors of the [paper](https://arxiv.org), if you have any questions or feedback.
