@@ -1,6 +1,6 @@
 # Search4Code: Web queries dataset for code search
 
-Search4Code is a dataset built using weak supervision on data extracted from anonymized Microsoft's Bing search engine logs to promote further research in the area of Natural Language based Code Search. We briefly describe the data below, for more details, refer to [our paper](LINK TO ARXIV) (under review).
+Search4Code is a large-scale web query based dataset of code search queries for C# and Java. The Search4Code data is mined from Microsoft Bing's anonymized search query logs using weak supervision technique. We hope the dataset will aid future research in the area of Natural Language based Code Search. We briefly describe the data below, for more details, refer to [our paper](https://arxiv.org) (under review).
 
 * [Dataset Information](#dataset-information)
 * [Dataset Schema](#dataset-schema)
@@ -8,17 +8,17 @@ Search4Code is a dataset built using weak supervision on data extracted from ano
 
 ## Dataset Information
 
-Search4Code is a large-scale dataset focused on the area of natural language to code search. We provide a dataset composed of real-world user queries and the corresponding click urls. Each query also has a label, predicted using the weak supervision model described in the paper, denoting whether the query has a code search intent or not. 
+Search4Code dataset is composed of real-world user queries and the corresponding most frequently clicked URLs. Each query additionally has a label denoting whether the query has a code search intent or not, as predicted by the weak supervision model described in the paper. 
 
-Currently the Search4Code dataset contains 6596 Java queries. Please note that we will be soon adding a dataset for C# queries as well.
+Currently the Search4Code dataset contains 6596 Java queries. Please note that we will be adding the C# query dataset soon.
 
 Here are some of the advantages of Search4Code dataset:
-- Real queries: All queries are sampled from anonymized Bing queries which we believe is a realistic representation of how individuals would search for code.
-- Click URLs: All queries have have a list of the the most frequently clicked urls from the search results. Since queries are grouped, the most frequently clicked url presents a good "solution" to the search query that most users selected.
-- Popularity score: Each query is assigned a popularity rank calculated based on it's frequency. 
-- Large scale: Currently the dataset contains thousands of queries with plans to further increase it as more data is run through the pipeline.
+- Real queries: The queries are sampled from anonymized Bing search logs. We believe this provides a realistic representation of how individuals would search for code.
+- Click URLs: Each query has a list of the three most frequently clicked URLs from the search results. For a given search query, the most frequently clicked URLs are representative of search results that provide satisfactory solutions.
+- Popularity score: Each query is assigned a popularity rank based on the frequency of occurrence. 
+- Large scale: The dataset contains thousands of queries. Hence, enabling the use of more complex models that require large amounts of training data.
 
-Since the dataset contains both code-search and non code-search queries, it could also be used to analyze other user intents, as described in our [prior work](https://arxiv.org/abs/1912.09519).
+Since the dataset contains both code-search and non code-search queries, it could also be used to analyze other user intents, as described in our [prior work](https://arxiv.org/abs/1912.09519). 
 
 
 ## Dataset Schema
@@ -33,6 +33,7 @@ TopClickedUrls | The top 3 most frequently clicked on result urls.
 PopularityRank | A popularity score based on the frequency of the query in the raw data. Most popular query is ranked 1.
 PredictedLabel | Boolean label where 'True' denotes the query has a code search intent.
 
+You can find a sample of the data [here](https://github.com/microsoft/Search4Code/data/java_sample.csv).
 
 ## Terms of Use:  
 
@@ -41,7 +42,7 @@ Please see the LICENSE file for more details. If you choose to use the data, ple
 ```
 @misc{rao-2020-codeintent,
     title = "Code Search Intent Classification Using Weak Supervision",
-    author = "Nikitha Rao, Chetan Bansal and Joe Guan",
+    author = "Nikitha Rao, Chetan Bansal, and Joe Guan",
     booktitle = "arXiv",
     year = "2020",
     address = "Online",

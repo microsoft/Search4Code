@@ -1,0 +1,11 @@
+Id,QueryString,TopClickedUrls,PopularityRank,PredictedLabel
+ac94e1d0-6ca1-4967-80ec-6766f066c7b4,64 bit java,"https://www.java.com/en/download/windows-64bit.jsp,https://www.java.com/en/download/faq/java_win64bit.xml,https://www.java.com/en/download/manual.jsp",1,FALSE
+7b10d3b9-685a-419f-b2ff-0e337ed89f7d,java 64 bit download,"https://www.java.com/en/download/windows-64bit.jsp,https://www.java.com/en/download/faq/java_win64bit.xml,https://download.cnet.com/Java-Runtime-Environment-JRE-64-Bit/3000-2213_4-75317067.html",2,FALSE
+55adb9c0-3afa-4404-a907-8061ece86cdd,java test,"https://www.java.com/verify/,https://www.java.com/en/download/installed.jsp?detect=jre,https://javatester.org/version.html",3,FALSE
+2ae036ca-9f56-43ed-a3a1-14894dcee7d2,java control panel windows 10,"https://www.java.com/en/download/help/win_controlpanel.xml,https://answersdrive.com/where-is-java-control-panel-windows-10-6009822,https://www.java.com/en/download/faq/win10_faq.xml",4,FALSE
+8b03c343-3279-4760-ac07-6f0bbbf34a58,java jre download,"https://java.com/en/download/,http://www.java.com/getjava/,https://www.java.com/inc/BrowserRedirect1.jsp?locale=en",5,FALSE
+616585ce-8d68-4daa-bd3c-09847ec51cb8,java api,"https://docs.oracle.com/javase/7/docs/api/,https://www.oracle.com/technetwork/java/api-141528.html,https://docs.oracle.com/en/java/javase/11/docs/api/index.html",6,TRUE
+f63b6f1b-e1a7-4762-8b7d-eaf0ce1ba5fd,java ide,"https://www.javaworld.com/article/3114167/choosing-your-java-ide.html,https://learn.g2.com/java-ide,https://www.jetbrains.com/idea/",7,FALSE
+4e90a417-5a7a-4c3c-afef-651e529b5614,arraylist java,"https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html,https://www.journaldev.com/11404/java-arraylist,https://www.w3schools.com/java/java_arraylist.asp",8,TRUE
+8d1b6272-8d6b-42b9-8cf1-731142111c44,java tutorial,"https://www.tutorialspoint.com/java/index.htm,https://docs.oracle.com/javase/tutorial/,https://www.w3schools.com/java/",9,FALSE
+225eef6a-bfd4-4743-b37a-de54811edf2f,java arraylist,"https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html,https://www.w3schools.com/java/java_arraylist.asp,https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html",10,TRUE
