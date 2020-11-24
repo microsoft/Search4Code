@@ -12,7 +12,7 @@ Search4Code is a large-scale dataset focused on the area of natural language to 
 
 Currently the Search4Code dataset contains 6596 Java queries. Please note that we will be soon adding a dataset for C# queries as well.
 
-What are some of the advantages of Search4Code dataset:
+Here are some of the advantages of Search4Code dataset:
 - Real queries: All queries are sampled from anonymized Bing queries which we believe is a realistic representation of how individuals would search for code.
 - Click URLs: All queries have have a list of the the most frequently clicked urls from the search results. Since queries are grouped, the most frequently clicked url presents a good "solution" to the search query that most users selected.
 - Popularity score: Each query is assigned a popularity rank calculated based on it's frequency. 
@@ -39,7 +39,7 @@ PredictedLabel | Boolean label where 'True' denotes the query has a code search 
 Please see the LICENSE file for more details. If you choose to use the data, please cite:
 
 ```
-@inproceedings{rao-2020-codeintent,
+@misc{rao-2020-codeintent,
     title = "Code Search Intent Classification Using Weak Supervision",
     author = "Nikitha Rao, Chetan Bansal and Joe Guan",
     booktitle = "arXiv",
