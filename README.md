@@ -33,7 +33,7 @@ TopClickedUrls | The top 3 most frequently clicked on result urls.
 PopularityRank | A popularity score based on the frequency of the query in the raw data. Most popular query is ranked 1.
 PredictedLabel | Boolean label where 'True' denotes the query has a code search intent.
 
-You can find a sample of the data [here](https://github.com/microsoft/Search4Code/data/java_sample.csv).
+You can find a sample of the data [here](https://github.com/microsoft/Search4Code/blob/main/data/java_sample.csv).
 
 ## Terms of Use:  
 
