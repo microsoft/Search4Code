@@ -1,6 +1,6 @@
 # Search4Code: Web queries dataset for code search
 
-Search4Code is a large-scale web query based dataset of code search queries for C# and Java. The Search4Code data is mined from Microsoft Bing's anonymized search query logs using weak supervision technique. We hope the dataset will aid future research in the area of Natural Language based Code Search. We briefly describe the data below, for more details, refer to [our paper](https://arxiv.org) (under review).
+Search4Code is a large-scale web query based dataset of code search queries for C# and Java. The Search4Code data is mined from Microsoft Bing's anonymized search query logs using weak supervision technique. We hope the dataset will aid future research in the area of Natural Language based Code Search. We briefly describe the data below, for more details, refer to [our paper](https://arxiv.org/abs/2011.11950) (under review).
 
 * [Dataset Information](#dataset-information)
 * [Dataset Schema](#dataset-schema)
@@ -40,16 +40,16 @@ You can find a sample of the data [here](https://github.com/microsoft/Search4Cod
 Please see the LICENSE file for more details. If you choose to use the data, please cite:
 
 ```
-@misc{rao-2020-codeintent,
-    title = "Code Search Intent Classification Using Weak Supervision",
-    author = "Nikitha Rao, Chetan Bansal, and Joe Guan",
-    booktitle = "arXiv",
-    year = "2020",
-    address = "Online",
-    url = "TODO",
+@misc{rao2020code,
+      title={Code Search Intent Classification Using Weak Supervision}, 
+      author={Nikitha Rao and Chetan Bansal and Joe Guan},
+      year={2020},
+      eprint={2011.11950},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
 }
 ```
 
 ## Contact:
 
-Please contact the authors of the [paper](https://arxiv.org), if you have any questions or feedback.
+Please contact the authors of the [paper](https://arxiv.org/abs/2011.11950), if you have any questions or feedback.
