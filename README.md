@@ -10,7 +10,7 @@ Search4Code is a large-scale web query based dataset of code search queries for 
 
 Search4Code dataset is composed of real-world user queries and the corresponding most frequently clicked URLs. Each query additionally has a label denoting whether the query has a code search intent or not, as predicted by the weak supervision model described in the paper. 
 
-Currently the Search4Code dataset contains 6596 Java queries. Please note that we will be adding the C# query dataset soon.
+Currently, the Search4Code dataset contains 6596 Java queries and 4974 C# queries.
 
 Here are some of the advantages of Search4Code dataset:
 - Real queries: The queries are sampled from anonymized Bing search logs. We believe this provides a realistic representation of how individuals would search for code.
